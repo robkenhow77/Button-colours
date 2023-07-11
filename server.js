@@ -15,7 +15,7 @@ function get(){
   })
 }
 
-app.listen(3001 || process.env.PORT, () => {
+app.listen(process.env.PORT || 3001, () => {
     console.log("Backend server running on 3001")
   })
 
