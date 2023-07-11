@@ -9,6 +9,8 @@ app.options('*', cors())
 
 var colour;
 
+get();
+
 function get(){
   app.get('/', (req, res) => {
     res.send(colour)
